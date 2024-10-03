@@ -1,0 +1,13 @@
+body{
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 200px;
+        padding: 10px;
+        background-color: rgb(28, 181, 241);
+        }
+        
+    }
+
+
+

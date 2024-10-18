@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorios</title>
+    <link rel="shortcut icon" href="png-transparent-swoosh-nike-just-do-it-logo-nike-angle-adidas-symbol-thumbnail.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h3 {
+            color: white;
+            justify-content: center;
+            text-align: center;
+            background-color: black;
+            height: 30px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .search-bar input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 14px;
+
+        }
+
+        .usuario {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+        }
+
+        .usuario li {
+            border-right: solid 2px black;
+            padding-right: 15px;
+        }
+
+        .opciones {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+        }
+
+        .medio {
+            display: flex;
+            justify-content: end;
+            background-color: rgb(226, 226, 226);
+            height: 30px;
+            justify-content: space-between;
+        }
+
+        .final {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .productos {
+            justify-content: center;
+            display: flex;
+
+        }
+
+        .nuevo {
+            color: orange;
+        }
+
+        .genero {
+            color: gray;
+        }
+
+        .NoStock {
+            color: red;
+        }
+
+        /*
+        height altura
+        width ancho
+        list-style: none
+        */
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h3><strong>6 cuotas sin interés en todo el sitio</strong></h3>
+        </div>
+        <div class="medio">
+            <div>
+                <img src="png-transparent-jumpman-air-jordan-nike-logo-t-shirt-nike-physical-fitness-hand-logo.png"
+                    alt="" width="30px">
+            </div>
+            <div>
+                <ul class="usuario">
+                    <li>
+                        <a href=""><strong>Suscribrete</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Buscar tienda</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Eventos</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Ayuda</strong></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="final">
+            <div> <img src="png-transparent-swoosh-nike-just-do-it-logo-nike-angle-adidas-symbol-thumbnail.png"
+                    width="60px"></div>
+            <div>
+                <ul class="opciones">
+                    <li>
+                        <a href=""><strong>Destacado</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Hombre</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Mujer</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Niño/a</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Accesorios</strong></a>
+                    </li>
+                    <li>
+                        <a href=""><strong>Oportunidades</strong></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <img src="lupa.png" width="20px">
+                <input type="text" placeholder="Search...">
+                <img src="carrito.png" width="30px">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="productos">
+                <div>
+                    <img src="pelota.png" alt="pelota" width="300px">
+                    <p class="nuevo">Lo nuevo</p>
+                    <br>
+                    <p>Premier League Academy</p>
+                    <br>
+                    <p class="genero">pelota de futbol unisex</p>
+                    <br>
+                    <p>$69.999</p>
+                </div>
+                <div>
+                    <img src="mochila.png" alt="" c width="300px">
+                    <p class="nuevo">Lo nuevo</p>
+                    <br>
+                    <p>Jan</p>
+                    <br>
+                    <p class="genero">mochila Jordan Para Niños/as</p>
+                    <br>
+                    <p>$52.999</p>
+                </div>
+                <div>
+                    <img src="pelota.png" alt="" width="300px">
+                    <p class="nuevo">Lo nuevo</p>
+                    <br>
+                    <p>Premier League Flight</p>
+                    <br>
+                    <p class="genero">Pelota de Futbol Unisex</p>
+                    <br>
+                    <p>$239.999</p>
+                </div>
+            </div>
+            <div class="productos">
+                <div>
+                    <img src="pelota2.png" alt="" width="300px">
+                    <p class="nuevo">Lo nuevo</p>
+                    <br>
+                    <p>Nike Futsal Pro</p>
+                    <br>
+                    <P class="genero">Pelota de Futsal unisex</P>
+                    <br>
+                    <p>$84.999</p>
+                </div>
+                <div>
+                    <img src="gorra.png" alt="" width="300px">
+                    <p>Kine DriFIT Rise</p>
+                    <br>
+                    <P class="genero">Gorro de Moda uisex</P>
+                    <br>
+                    <p>$51.499</p>
+                </div>
+                <div>
+                    <img src="cinta.png" alt="" width="300px">
+                    <p class="NoStock">AGOTADO</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

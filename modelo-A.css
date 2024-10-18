@@ -1,0 +1,17 @@
+header{
+  background-color: rgb(182, 182, 182);
+}
+body {
+    header {
+        display: flex;
+        justify-content: space-between
+    }
+}
+.box {
+display: flex;
+margin: 10px;
+text-align: center;
+align-items: center;
+}
+
+

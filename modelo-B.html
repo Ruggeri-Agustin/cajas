@@ -9,6 +9,7 @@
         type="image/x-icon">
     <style>
         * {
+            /*use un selector universal "*" para rellenar los espacios en blanco*/
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -16,104 +17,135 @@
 
         header {
             position: fixed;
+            /*esto es para que el header quede fijo*/
             width: 100%;
+            /*esto es para que el header ocupe el 100% del ancho de la pagina*/
         }
 
         main {
             padding-top: 10%;
+            /*esto es para dejar un espacio entre el header y el main*/
         }
 
         h3 {
             color: white;
+            /*esto es para  cambiar el color de las letras*/
             justify-content: center;
+            /*esto es para que el "h3" se muestre en medio*/
             text-align: center;
             background-color: black;
+            /*esto es el color de fondo*/
             height: 30px;
+            /*esto es la altura*/
         }
 
         a {
             color: black;
+            /*esto (otra vez) es para cambiar el color*/
             text-decoration: none;
+            /*esto es para que no aparezcan las lineas debajo de las etiquetas "a"*/
         }
 
         .search-bar input {
             padding: 8px;
+            /*esto le da el alto a la barra de busqueda*/
             border: 1px solid #ccc;
+            /*esto cambia el ancho del borde de la barra*/
             border-radius: 20px;
+            /*esto hace menos cuadrada la barra de busqueda*/
             font-size: 14px;
+            /*esto le da el ancho a la barra*/
 
         }
 
         .usuario {
             display: flex;
+            /*esto acomoda las palabras una al lado de la otra*/
             list-style: none;
-            gap: 15px;
+            /*esto quita los puntos*/
+            gap: 14px;
+            /*esto separa los elementos de la lista para dejar un espacio entre las columnas*/
         }
 
         .usuario li {
             border-right: solid 2px black;
+            /*esto agrega las columnas*/
             padding-right: 15px;
+            /*esto da un espacio entras las palabras y las columnas*/
         }
 
         .opciones {
             display: flex;
+            /*esto acomoda las palabras una al lado de la otra*/
             list-style: none;
+            /*esto quita los puntos*/
             gap: 15px;
+            /*esto da un espacio entre palabra y palabra*/
         }
 
         .medio {
             display: flex;
-            justify-content: end;
+            /*esto acomoda el texto en la parte correcta*/
             background-color: rgb(226, 226, 226);
+            /*esto cambia el color de fondo*/
             height: 30px;
+            /*esto da la altura*/
             justify-content: space-between;
+            /*esto da un espacio entre el texto y la imagen*/
         }
 
         .final {
             display: flex;
+            /* esto acomoda todo arriba*/
             justify-content: space-between;
+            /*esto da los espacios*/
             background-color: white;
+            /*esto le da el color al fondo*/
             height: 30px;
+            /*esto da la altura de la parte final de header*/
         }
 
         .search-bar {
             display: flex;
+            /*esto alinea la barra con las imagenes*/
             align-items: center;
+            /*esto acomoda las imagenes*/
             gap: 10px;
+            /*esto da un espacio entra la barra de busqueda y las imagenes*/
         }
 
         .productos {
             justify-content: center;
+            /*esto acomoda los pruductos en el medio*/
             display: flex;
-
-
+            /*esto acomoda los pruductos uno abajo del otro*/
         }
 
         .nuevo {
             color: orange;
+            /*esto cambia el color de las letras para destacar losnuevos pruductos*/
         }
 
         .genero {
             color: gray;
+            /*esto cambia el color de las letras para destacar el genero al que esta destinado el producto*/
         }
 
         .NoStock {
             color: red;
+            /*esto cambia el color de las letras para destacar que no hay mas stock*/
         }
 
         .redsoc {
             position: fixed;
+            /*esto fija la posicion de la imagen*/
             bottom: 15px;
+            /*esto acomoda la imagen al abajo*/
             right: 15px;
+            /*esto acomoda la imagen a las derecha*/
             padding: 10px;
-
+            /*separa la imagen del borde*/
         }
-
-        /*
-        height altura
-        width ancho
-        list-style: none
-        */
     </style>
 </head>
 
@@ -245,4 +277,5 @@
 <footer>
     <p>&copy; todos los derechos reservados</p>
 </footer>
+
 </html>

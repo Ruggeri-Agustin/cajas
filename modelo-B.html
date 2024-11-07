@@ -5,12 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accesorios</title>
-    <link rel="shortcut icon" href="png-transparent-swoosh-nike-just-do-it-logo-nike-angle-adidas-symbol-thumbnail.png" type="image/x-icon">
+    <link rel="shortcut icon" href="png-transparent-swoosh-nike-just-do-it-logo-nike-angle-adidas-symbol-thumbnail.png"
+        type="image/x-icon">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+        }
+
+        main {
+            padding-top: 10%;
         }
 
         h3 {
@@ -62,6 +72,8 @@
         .final {
             display: flex;
             justify-content: space-between;
+            background-color: white;
+            height: 30px;
         }
 
         .search-bar {
@@ -73,6 +85,7 @@
         .productos {
             justify-content: center;
             display: flex;
+
 
         }
 
@@ -86,6 +99,14 @@
 
         .NoStock {
             color: red;
+        }
+
+        .redsoc {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            padding: 10px;
+
         }
 
         /*
@@ -160,6 +181,7 @@
         <div>
             <div class="productos">
                 <div>
+                    <p>129 productos</p>
                     <img src="pelota.png" alt="pelota" width="300px">
                     <p class="nuevo">Lo nuevo</p>
                     <br>
@@ -214,8 +236,13 @@
                     <p class="NoStock">AGOTADO</p>
                 </div>
             </div>
+            <div class="redsoc">
+                <img src="whatsapp.png" alt="" width="50px">
+            </div>
         </div>
     </main>
 </body>
-
+<footer>
+    <p>&copy; todos los derechos reservados</p>
+</footer>
 </html>

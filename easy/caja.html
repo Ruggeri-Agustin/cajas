@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy</title>
+    <style>
+        .productos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .precioAnt {
+            text-decoration: line-through;
+
+        }
+
+        .compra {
+            background-color: orange;
+            padding: 8px;
+            border: 5px solid orange;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        u {
+            color: orange;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .descuento {
+            background-color: rgb(54, 155, 238);
+            color: white;
+            border: 1px solid #ccc;
+            width: 50px;
+            height: 28px;
+            border-radius: 5px;
+        }
+
+        .productoImagen {
+            display: flex;
+            justify-content: center;
+        }
+
+        .producto {
+            border: 1px solid grey;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        .producto:hover .tercerOjo {
+            opacity: 1;
+        }
+
+        .descuento2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .cuotas {
+            justify-content: center;
+            align-items: center;
+            height: 1px;
+        }
+
+        .borde2 {
+            border-color: grey;
+            border-style: solid;
+            border-top: 1px;
+            border-left: 1px;
+            border-right: 1px;
+            width: 100%;
+            height: auto;
+
+        }
+
+        .productos img {
+            width: 100%;
+        }
+
+        .oferta {
+            background-color: rgb(54, 155, 238);
+            position: absolute;
+            width: 90px;
+            bottom: 690px;
+            left: 690px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .wishlist-btn {
+            position: absolute;
+            top: 15px;
+            right: 690px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .wishlist-btn img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .tercerOjo img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .tercerOjo {
+            display: flex;
+            justify-content: center;
+            opacity: 0;
+        }
+
+        .vistaP {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            color: rgb(54, 155, 238);
+            background-color: rgb(221, 221, 221);
+            border-radius: 5px;
+            width: 110px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="productos">
+            <div class="producto">
+                <div class="productoImagen">
+                    <div>
+                        <span></span>
+                    </div>
+                    <img src="easy.png" width="200px" class="borde2">
+                    <div class="oferta">
+                        <span><strong>hasta</strong></span>
+                        <br>
+                        <span><strong>12</strong></span>
+                        <span><strong>sin</strong></span>
+                        <span><strong>interes</strong></span>
+                    </div>
+                    <button class="wishlist-btn"><img src="corazon.png" alt=""></button>
+                </div>
+                <div class="tercerOjo">
+                    <div class="vistaP">
+                        <img src="celeste.png" width="2px">
+                        <span class=>vista previa</span>
+                    </div>
+
+                </div>
+                <h3>Señorial</h3>
+                <p>termotanque Electrico Teszp65 50lt Señorial</p>
+                <div class="descuento2">
+                    <button class="descuento"><strong>-20%</strong></button>
+                    <p class="precioAnt">
+                    <h2>-</h2>299.995</p>
+                </div>
+                <h3>239.996</h3>
+                <button class="compra"><u>-----------------------------------------</u>Agregar al
+                    carrito<u>------------------------------------------------</u></button>
+            </div>
+        </section>
+        <main>
+</body>
+
+</html>
